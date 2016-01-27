@@ -22,6 +22,6 @@ typedef NS_ENUM(NSUInteger, QNNetWorkType) {
 
 + (QNNetWorkType)networkType;
 
-+ (NSString*)networkDescription;
++ (NSString *)networkDescription;
 
 @end

@@ -1,0 +1,9 @@
+language: objective-c
+rvm: 2.2.2
+before_install:
+  - brew update
+  - brew upgrade xctool
+  - gem install cocoapods
+script:
+  - xctool -project NetworkInfo.xcodeproj -scheme NetworkInfo_iOSTest -sdk iphonesimulator -configuration Release test -test-sdk iphonesimulator7.0 -freshInstall -freshSimulator
+  - xctool -project NetworkInfo.xcodeproj -scheme NetworkInfo_MacTest -sdk macosx -configuration Debug test -test-sdk macosx

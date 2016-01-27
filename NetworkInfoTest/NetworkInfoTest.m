@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Qiniu Cloud Storage. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
 #import "QNNetworkInfo.h"
+#import <XCTest/XCTest.h>
 
 @interface NetworkInfoTest : XCTestCase
 
@@ -30,7 +30,6 @@
     NSLog(@"device ip %@", ip);
     XCTAssert(ip, @"Pass");
 }
-
 
 - (void)testNetworkType {
     QNNetWorkType t = [QNNetworkInfo networkType];
