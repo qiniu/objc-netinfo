@@ -470,7 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"resolv\"",
@@ -485,7 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"resolv\"",
@@ -504,6 +504,10 @@
 				INFOPLIST_FILE = NetworkInfoTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"resolv\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.NetworkInfoTests;
 				PRODUCT_NAME = NetworkInfoTest;
 				SDKROOT = iphoneos;
@@ -517,6 +521,10 @@
 				INFOPLIST_FILE = NetworkInfoTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"resolv\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.NetworkInfoTests;
 				PRODUCT_NAME = NetworkInfoTest;
 				SDKROOT = iphoneos;
@@ -552,6 +560,7 @@
 				DF9D42AF1C589C4800486F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9D42BA1C58A08300486F87 /* Build configuration list for PBXNativeTarget "NetworkInfo_iOS" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +569,7 @@
 				DF9D42BC1C58A08300486F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9D42C91C58A0D300486F87 /* Build configuration list for PBXNativeTarget "NetworkInfo_iOSTest" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +578,7 @@
 				DF9D42CB1C58A0D300486F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
