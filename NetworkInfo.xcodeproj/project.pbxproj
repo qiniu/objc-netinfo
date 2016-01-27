@@ -210,9 +210,9 @@
 			productReference = DF9D42B41C58A08300486F87 /* libNetworkInfo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DF9D42C01C58A0D300486F87 /* NetowrkInfo_iOSTest */ = {
+		DF9D42C01C58A0D300486F87 /* NetworkInfo_iOSTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF9D42C91C58A0D300486F87 /* Build configuration list for PBXNativeTarget "NetowrkInfo_iOSTest" */;
+			buildConfigurationList = DF9D42C91C58A0D300486F87 /* Build configuration list for PBXNativeTarget "NetworkInfo_iOSTest" */;
 			buildPhases = (
 				DF9D42BD1C58A0D300486F87 /* Sources */,
 				DF9D42BE1C58A0D300486F87 /* Frameworks */,
@@ -223,8 +223,8 @@
 			dependencies = (
 				DF9D42C81C58A0D300486F87 /* PBXTargetDependency */,
 			);
-			name = NetowrkInfo_iOSTest;
-			productName = NetowrkInfoTests;
+			name = NetworkInfo_iOSTest;
+			productName = NetworkInfoTests;
 			productReference = DF9D42C11C58A0D300486F87 /* NetworkInfoTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -266,7 +266,7 @@
 				DF9D42811C58970F00486F87 /* NetworkInfo_Mac */,
 				DF9D42A41C589C4800486F87 /* NetworkInfo_MacTest */,
 				DF9D42B31C58A08300486F87 /* NetworkInfo_iOS */,
-				DF9D42C01C58A0D300486F87 /* NetowrkInfo_iOSTest */,
+				DF9D42C01C58A0D300486F87 /* NetworkInfo_iOSTest */,
 			);
 		};
 /* End PBXProject section */
@@ -504,7 +504,7 @@
 				INFOPLIST_FILE = NetworkInfoTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.NetowrkInfoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.NetworkInfoTests;
 				PRODUCT_NAME = NetworkInfoTest;
 				SDKROOT = iphoneos;
 			};
@@ -517,7 +517,7 @@
 				INFOPLIST_FILE = NetworkInfoTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.NetowrkInfoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiniu.NetworkInfoTests;
 				PRODUCT_NAME = NetworkInfoTest;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -561,7 +561,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DF9D42C91C58A0D300486F87 /* Build configuration list for PBXNativeTarget "NetowrkInfo_iOSTest" */ = {
+		DF9D42C91C58A0D300486F87 /* Build configuration list for PBXNativeTarget "NetworkInfo_iOSTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF9D42CA1C58A0D300486F87 /* Debug */,
