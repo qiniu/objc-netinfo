@@ -36,7 +36,3 @@ THE SOFTWARE.
                }
 
 end
-Status API Training Shop Blog About Pricing
-
-
-end
